@@ -279,3 +279,8 @@ exclude_from_backup ./service/*/log/supervise
 ### narada-plugin-socklog
 
 restart log
+
+
+add_config listen           :0
+add_config basepath
+add_config real_ip_header
