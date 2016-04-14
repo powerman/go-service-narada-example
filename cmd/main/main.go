@@ -9,9 +9,9 @@ import (
 
 	"github.com/powerman/narada-go/narada"
 
-	_ "github.com/<USERNAME>/<REPOSITORY>/api/eventsvc"
-	_ "github.com/<USERNAME>/<REPOSITORY>/api/rpcsvc"
-	_ "github.com/<USERNAME>/<REPOSITORY>/api/websvc"
+	_ "github.com/powerman/go-service-example/api/eventsvc"
+	_ "github.com/powerman/go-service-example/api/rpcsvc"
+	_ "github.com/powerman/go-service-example/api/websvc"
 )
 
 var log = narada.NewLog("")
