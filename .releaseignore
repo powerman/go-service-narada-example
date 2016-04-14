@@ -1,0 +1,19 @@
+# VCS
+[.]gitignore
+[.]travis.yml
+circle.yml
+
+# Narada
+(.*/)?[.]release/.*
+.releaseignore
+build
+release
+deploy
+deploy_server
+deploy_staging
+deploy_production
+migrate
+t/build/.*
+
+# Go sources
+.*[.]go
