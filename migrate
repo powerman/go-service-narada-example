@@ -284,3 +284,7 @@ restart log
 add_config listen           :0
 add_config basepath
 add_config real_ip_header
+
+INSTALL
+VERSION 0.1.0
+
