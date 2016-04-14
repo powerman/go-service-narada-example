@@ -2,6 +2,7 @@
 [.]gitignore
 [.]travis.yml
 circle.yml
+README.md
 
 # Narada
 (.*/)?[.]release/.*
