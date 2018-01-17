@@ -1,7 +1,7 @@
 # Example Go service
 
-[![Build Status](https://travis-ci.org/powerman/go-service-example.svg?branch=master)](https://travis-ci.org/powerman/go-service-example)
-[![Build Status](https://circleci.com/gh/powerman/go-service-example.svg?style=shield)](https://circleci.com/gh/powerman/go-service-example)
+[![Build Status](https://travis-ci.org/powerman/go-service-narada-example.svg?branch=master)](https://travis-ci.org/powerman/go-service-narada-example)
+[![Build Status](https://circleci.com/gh/powerman/go-service-narada-example.svg?style=shield)](https://circleci.com/gh/powerman/go-service-narada-example)
 
 ## INSTALL
 
@@ -11,7 +11,7 @@ To install this project **for development**:
   - setup (in home dir or system-wide) Perl-module Narada (for ex.: `cpanm
     Narada`)
   - install OS packages `runit` и `socklog`
-- clone the repo into `$GOPATH/src/github.com/powerman/go-service-example/`
+- clone the repo into `$GOPATH/src/github.com/powerman/go-service-narada-example/`
 - build and deploy project (these commands should be run in project
   directory)
   - install dependencies needed to build project `go get -t ./...`
