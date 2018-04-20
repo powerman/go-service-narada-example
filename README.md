@@ -11,7 +11,7 @@ To install this project **for development**:
   - setup (in home dir or system-wide) Perl-module Narada (for ex.: `cpanm
     Narada`)
   - install OS packages `runit` и `socklog`
-- clone the repo into `$GOPATH/src/github.com/powerman/go-service-narada-example/`
+- clone the repo into `$(go env GOPATH)/src/github.com/powerman/go-service-narada-example/`
 - build and deploy project (these commands should be run in project
   directory)
   - install dependencies needed to build project `go get -t ./...`
